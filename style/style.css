@@ -10,7 +10,7 @@
     width: 100vw;
     height: 100vh;
     background-size: cover;
-    background-image: url('/img/kali.jpg') ;
+    background-image: url(../img/kali.jpg) ;
     background-repeat: no-repeat;
     
  }  
