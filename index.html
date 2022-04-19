@@ -8,9 +8,16 @@
     <link rel="stylesheet" href="style/style.css">
 </head>
 <body>
-  <div class="taskbar"></div>
+  <div class="Icon">  
+  <img style="margin: 5px;" viewBox="0 0 24 24" src="img/terminal.png" id="terminal" > 
+  <p class="label">Terminal</p>
+</div>
+<div class="Icon">  
+  <img style="margin: 5px;" viewBox="0 0 24 24" src="img/readme.png" id="readme" >
+  <p class="label">Readme.txt</p>
+</div>
+
   <div id="main" class="main">
-    
     <div class="card-view-main">
       
       <div id='dragWin'class="row1">
@@ -25,11 +32,13 @@
         <canvas class="matrix" id="matrix"></canvas>
       </div>
     </div>
-    <div > 
+  </div>
+  <div > 
   <div class="background">  </div>
 
       <audio id='matrixM'loop src="matrix.mp3"></audio>
       <script src="src/matrixRain.js"></script>
+      <script src="src/terminal.js"></script>
     
 </body>
 </html>
