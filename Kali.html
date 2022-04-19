@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kali Linux Simulator</title>
+    <link rel="stylesheet" href="/style/style.css">
+</head>
+<body>
+  <div class="taskbar"></div>
+  <div id="main" class="main">
+    
+    <div class="card-view-main">
+      
+      <div id='dragWin'class="row1">
+        <div class='min'></div>
+        <div class='max'></div>
+        <div class='mins'></div>
+      </div>
+      <div id='dragWin' class="col1">
+        <div class='close'><img class="imgClose" id='close'src="/img/circle-xmark-solid.svg" alt=""></div>
+      </div>
+      <div class="row2">
+        <canvas class="matrix" id="matrix"></canvas>
+      </div>
+    </div>
+    <div > 
+  <div class="background">  </div>
+
+      <audio id='matrixM'loop src="matrix.mp3"></audio>
+      <script src="/src/matrixRain.js"></script>
+    
+</body>
+</html>
