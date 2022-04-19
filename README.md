@@ -6,3 +6,4 @@ ainda em construção
 
 Aperte "Enter" para abrir o terminal e "Del" para fechar o terminal 
 
+https://pvitordev.github.io/KaliLinuxSimulator/
